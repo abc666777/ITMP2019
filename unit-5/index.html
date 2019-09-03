@@ -78,10 +78,10 @@
 		function ready(json){
 			userInfo = json;
 			console.log(json);
-			if(localStorage.nowIndex !== undefined){
+			if(localStorage.nowIndex !== "undefined"){
 				nowIndex = Number(localStorage.nowIndex);
 			}
-			if(localStorage.fav_value !== undefined){
+			if(localStorage.fav_value !== "undefined"){
 				fav_value = JSON.parse(localStorage.fav_value);
 			}
 			callData();
