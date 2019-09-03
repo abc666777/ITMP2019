@@ -124,7 +124,7 @@
 
 		function callData(){
 			fav.style.opacity = fav_value[nowIndex]; 
-			profile.src = "https://picsum.photos/id/"+nowIndex+"/200/200"
+			profile.src = "https://picsum.photos/id/"+Number(nowIndex+1)+"1/200/200"
 			username.innerText = userInfo[nowIndex].username;
 			city.innerText = userInfo[nowIndex].address.city;
 			fullname.innerText = userInfo[nowIndex].name;
