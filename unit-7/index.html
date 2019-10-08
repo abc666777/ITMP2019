@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	</title>
+	<style>
+		.yoyo{
+			width: 100px;
+			height: 100px;
+			position: fixed;
+			right: 1em;
+			bottom: 1em;
+			background: blue;
+		}
+		@keyframes{
+
+		}
+	</style>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="https://jabont.com/jayss/jayss.css">
+</head>
+<body>
+	<div id="d1" style="height: 400px;width: 100%;background: pink"></div>
+	<div id="d2" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d3" style="height: 400px;width: 100%;background: pink"></div>
+	<div id="d4" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d5" style="height: 400px;width: 100%;background: pink"></div>
+	<div id="d6" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d7" style="height: 400px;width: 100%;background: pink"></div>
+	<div id="d8" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d9" style="height: 400px;width: 100%;background: pink"></div>
+	<div id="d10" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d11" style="height: 400px;width: 100%;background: pink"></div>
+	<div id="d12" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d13" style="height: 400px;width: 100%;background: pink"></div>
+	<div id="d14" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d15" style="height: 400px;width: 100%;background: pink"></div>
+	<div id="d16" style="height: 400px;width: 100%;background: orchid"></div>
+	<div class="yoyo" id="yoyo"></div>
+
+<script>
+	function rotateYoyo(){
+		let r = window.pageYOffset;
+		yoyo.style.transform = `rotate(${r}deg)`;
+	}
+	window.addEventListener("scroll", rotateYoyo);
+
+	//function blink(e){
+		//let eY = e.offSetTop;
+		//let currentBottom = window.pageYOffset+window.innerHeight;
+		//if((currentBottom)>ey+300 && ){
+			//e.classList.add('blink');
+		//}
+		//else{
+			//e.classList.remove('blink');
+		//}
+	//}
+	//window.addEventListener("scroll", blink);
+</script>
+</body>
+</html>
