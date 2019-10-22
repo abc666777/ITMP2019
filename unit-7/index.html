@@ -19,9 +19,8 @@
 	}
 	#tooPla{
 		height: 600px;
-		background: navy;
+		background: hsl(240, 100%, 57.25%);
 		position: relative;
-		overflow: hidden;
 	}
 	.fish{
 		position: absolute;
@@ -55,14 +54,13 @@
 </head>
 <body>
 
-	<div id="d1" style="height: 400px;width: 100%;background: pink"></div>
-	<div id="d2" style="height: 400px;width: 100%;background: orchid"></div>
-	<div id="d3" style="height: 400px;width: 100%;background: pink"></div>
-	<div id="d4" style="height: 400px;width: 100%;background: orchid"></div>
-	<div id="d5" style="height: 400px;width: 100%;background: pink"></div>
-	<div id="d6" style="height: 400px;width: 100%;background: orchid"></div>
-	<div id="d7" style="height: 400px;width: 100%;background: pink"></div>
-	<div id="d8" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d15" style="height: 400px;width: 100%;background: hsl(240, 100%, 100%)"></div>
+	<div id="d14" style="height: 400px;width: 100%;background: hsl(240, 100%, 94.75%)"></div>
+	<div id="d13" style="height: 400px;width: 100%;background: hsl(240, 100%, 88.5%)"></div>
+	<div id="d12" style="height: 400px;width: 100%;background: hsl(240, 100%, 82.25%)"></div>
+	<div id="d11" style="height: 400px;width: 100%;background: hsl(240, 100%, 76%)"></div>
+	<div id="d10" style="height: 400px;width: 100%;background: hsl(240, 100%, 69.75%)"></div>
+	<div id="d9"  style="height: 400px;width: 100%;background: hsl(240, 100%, 63.25%)"></div>
 		<div id="tooPla">
 		<img src="fish1.png" class="fish f1" id="f1">
 		<img src="fish1.png" class="fish f2" id="f2">
@@ -70,14 +68,14 @@
 		<img src="fish1.png" class="fish f4" id="f4">
 		<img src="fish1.png" class="fish f5" id="f5">
 	</div>
-	<div id="d9" style="height: 400px;width: 100%;background: pink"></div>
-	<div id="d10" style="height: 400px;width: 100%;background: orchid"></div>
-	<div id="d11" style="height: 400px;width: 100%;background: pink"></div>
-	<div id="d12" style="height: 400px;width: 100%;background: orchid"></div>
-	<div id="d13" style="height: 400px;width: 100%;background: pink"></div>
-	<div id="d14" style="height: 400px;width: 100%;background: orchid"></div>
-	<div id="d15" style="height: 400px;width: 100%;background: pink"></div>
-	<div id="d16" style="height: 400px;width: 100%;background: orchid"></div>
+	<div id="d8" style="height: 400px;width: 100%;background: hsl(240, 100%, 51%)"></div>
+	<div id="d7" style="height: 400px;width: 100%;background: hsl(240, 100%, 44.75%)"></div>
+	<div id="d6" style="height: 400px;width: 100%;background: hsl(240, 100%, 37.5%)"></div>
+	<div id="d5" style="height: 400px;width: 100%;background: hsl(240, 100%, 31.25%)"></div>
+	<div id="d4" style="height: 400px;width: 100%;background: hsl(240, 100%, 25%)"></div>
+	<div id="d3" style="height: 400px;width: 100%;background: hsl(240, 100%, 18.75%)"></div>
+	<div id="d2" style="height: 400px;width: 100%;background: hsl(240, 100%, 12.5%)"></div>
+	<div id="d1" style="height: 400px;width: 100%;background: hsl(240, 100%, 6.25%)"></div>
 	<div id="yoyo" class="yoyo"></div>
 
 
@@ -100,7 +98,7 @@
 				d3.classList.remove('blink');
 			}
 		}
-		window.addEventListener("scroll", blinkThat);
+		//window.addEventListener("scroll", blinkThat);
 
 		function plaToo(){
 			let y = window.pageYOffset-tooPla.offsetTop+tooPla.offsetHeight;
