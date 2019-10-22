@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Responsive</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		*{transition: all .3s;}
+		body{
+			background: red;
+		}
+		#pic{
+			width: 100%;
+			padding-top: 100%;
+			background-image: url("https://i.ytimg.com/vi/2cavAdykw2A/maxresdefault.jpg");
+			background-size: cover;
+			background-position: center;
+		}
+		.container{
+			background-color: white;
+			width: 100%;
+			padding: 1em;
+			box-sizing: border-box;
+			max-width: 1200px;
+			margin: auto;
+		}
+		@media (max-width: 1024px){
+			body{
+				background: purple;
+			}
+			#pic{
+				background-image: url("https://i.ytimg.com/vi/tmNGYnFVjcI/maxresdefault.jpg");
+			}
+		}
+		@media (max-width: 768px){
+			body{
+				background: green;
+			}
+			#pic{
+				background-image: url("https://i.ytimg.com/vi/3cCQcN9SGyk/maxresdefault.jpg");
+			}
+		}
+		@media (max-width: 600px){
+			body{
+				background: yellow;
+			}
+			#pic{
+				background-image: url("https://upload.wikimedia.org/wikipedia/it/f/f8/Giorno_Giovanna_Gold_Experience.jpg");
+			}
+		}
+	</style>
+</head>
+<body>
+	<img id="pic">
+	<div class="container">
+		YEET
+	</div>
+</body>
+</html>
